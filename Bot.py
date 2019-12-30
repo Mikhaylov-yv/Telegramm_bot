@@ -2,7 +2,6 @@
 import telebot
 import bot_config
 
-print('Бобр')
 bot = telebot.TeleBot(bot_config.token)
 
 @bot.message_handler(commands=['start'])
